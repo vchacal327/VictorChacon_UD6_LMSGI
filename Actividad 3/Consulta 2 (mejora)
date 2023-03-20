@@ -1,0 +1,3 @@
+for $autor in doc("BD_Libros.xml")/Libros/libro/Autores/autor
+where $autor/Nacionalidad='Española'
+return $autor
